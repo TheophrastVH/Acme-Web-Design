@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <!--Everything that should go into a the header, Most important <meta /> tags-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="Affordable and professional web design">
+        <meta name="keywords" content="web design, Affordable web design, professional web design">
+        <meta name="author" content="Theophrastus Von Hoenheim"
+        <title>Acme Web Design | Services</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <!--html5 header tag-->
+        <header>
+            <!--ID is for something unique, Class if for something general-->
+            <div class="container">
+                <div id="branding">
+                    <h1><span class="highlite">Acme</span> Web Design</h1>
+                </div>
+                <nav>
+                    <!--ul used for menues-->
+                    <ul>
+                        <!--link to different html files per page-->
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li class="current"><a href="services.html">Services</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section id="newsletter">
+            <div class="container">
+                <h1>Subscribe to our Newsletter</h1>
+                <form>
+                    <input type="email" placeholder="Enter Email">
+                    <button type="submit" class="button1">Subscribe</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="main">
+            <div class="container">
+               <article id="main-col">
+                   <h1 class="page-title">Services</h1>
+                   <ul id="services">
+                       <l1>
+                           <h3>Website Design</h3>
+                           <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.</p>
+                       </l1>
+                       <l1>
+                            <h3>Website Maintenance</h3>
+                            <p>Pricing: $100 Per Month</p>
+                       </l1>
+                       <l1>
+                            <h3>Website Hosting</h3>
+                            <p>$25 Per Month.</p>
+                       </l1>
+                   </ul>
+               </article>
+
+               <aside id="sidebar">
+                   <div class="dark">
+                   <h3>Get A Quote</h3>
+                   <form class="quote">
+                        <div>
+                            <label>Name</label><br>
+                            <input type="text" placeholder="Name">
+                        </div>
+                        <div>
+                            <label>Email</label><br>
+                            <input type="email" placeholder="Email Address">
+                        </div>
+                        <button class="button1" type="submit">Send</button>
+                   </form>
+                        
+                </aside>
+            </div>
+        </section>
+
+        <footer>
+            <p>Acme Web Design, Copyright &copy;</p>
+        </footer>
+    </body>
+</html>
